@@ -24,7 +24,7 @@ group :test do
   gem 'metadata-json-lint',                                         :require => false
   gem 'redcarpet',                                                  :require => false
   gem 'rubocop', '~> 0.68.1',                                       :require => false if RUBY_VERSION >= '2.3.0'
-  gem 'rubocop-rspec', '~> 1.15.0',                                 :require => false if RUBY_VERSION >= '2.3.0'
+  gem 'rubocop-rspec', '~> 1.16.0',                                 :require => false if RUBY_VERSION >= '2.3.0'
   gem 'mocha', '~> 1.4.0',                                          :require => false
   gem 'coveralls',                                                  :require => false
   gem 'simplecov-console',                                          :require => false
